@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mitt CV | Om appen</title>
+
+    <link rel="icon" href="/src/assets/favicon.ico">
+    <link rel="stylesheet" href="/src/css/main.css">
+    <script src="/src/js/main.js" type="module"></script>
+</head>
+<body>
+    <header>
+        <h1>Mitt CV</h1>
+    </header>
+
+    <main>
+        
+        <a class="tablink" href="index.html">Mina arbeten</a>
+        <a class="tablink" href="add.html">Lägg till arbete</a>
+        <a class="tablink active" href="about.html">Om appen</a>
+
+        <div class="tabcontent">
+            <h2>Om appen</h2>
+            <p id="about-p">
+                Syftet med denna webbapplikation är att en användare ska kunna lagra och visa arbeten hen haft. Under fliken
+                <a href="index.html">Mina arbeten</a> visas de arbeten användaren har lagrat och under fliken 
+                <a href="add.html">Lägg till arbete</a> finns möjlighet att lägga till nya arbeten via ett formulär. 
+                För lagring av arbeten har databasen MongoDB tillsammans med adminverktyget MongoDB Compass använts.
+                <br>
+                <br> 
+                Mina slutsatser efter arbetet med detta moment är att det är föga skillnad i att skapa poster i och fetcha data från
+                PostGreSQL-databasen som användes i förra momentet och MongoDB, åtminstone inte inom ramen för denna uppgift. Precis som
+                förra momentet är det en fantastisk känsla när allt fungerar som det är tänkt och jag är otroligt tacksam för att 
+                kodbasen från förra momentet var ordentlig och kunde återanvändas.  
+                <br>
+                <br>
+                Det jag tyckte var lite knepigt i förra momentet var att få felmeddelanden på rätt plats i processen och koden. 
+                Eftersom kodbasen från det momentet kunde återanvändas och schema via Mongoose användes i detta moment så fick jag en
+                bättre kodstruktur och en inbyggd kontroll. Så mycket kom gratis för detta moment och jag upplevde koden mer överskådlig 
+                med ett fint flow. Win-win helt enkelt! 
+            </p>
+        </div>
+    </main>
+</body>
+</html>
